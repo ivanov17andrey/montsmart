@@ -1,0 +1,43 @@
+@import "fonts";
+@import "mixins";
+@import "node_modules/slick-carousel/slick/slick.scss";
+@import "node_modules/bootstrap/scss/bootstrap-reboot.scss"; // Bootstrap Reboot collection
+// @import 'node_modules/bootstrap/scss/mixins/_breakpoints.scss'; // Bootstrap Breakpoints mixin
+// @import 'node_modules/bootstrap/scss/bootstrap-grid.scss'; // Optional Bootstrap Grid
+// @import 'node_modules/bootstrap/scss/utilities/_sizing.scss'; // Optional Bootstrap Utilites
+
+$red: #9c0400;
+$yellow: #ffba01;
+$height: 63rem;
+$indent: 10%;
+$semiindent: 5%;
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+html {
+	font-size: 16px;
+	overflow-x: hidden;
+}
+body {
+	font-family: Mont, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #000;
+	font-weight: 300;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.65;
+	overflow-x: hidden;
+}
+button:focus {
+	outline: none;
+}
+.container {
+	width: 1536px;
+	margin: 0 auto;
+}

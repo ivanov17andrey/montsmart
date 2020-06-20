@@ -1,0 +1,26 @@
+@mixin font($fname, $fstyle, $fweight, $furl) {
+	@font-face {
+		font-family: $fname;
+		font-style: $fstyle;
+		font-weight: $fweight;
+		// font-display: swap; // Uncomment to initially display system fonts
+		src: local($fname), url($furl) format('woff2');
+	}
+}
+
+@include font('Mont', normal, 100, '../fonts/Mont-Thin.woff2');
+@include font('Mont', italic, 100, '../fonts/Mont-ThinItalic.woff2');
+@include font('Mont', normal, 200, '../fonts/Mont-ExtraLight.woff2');
+@include font('Mont', italic, 200, '../fonts/Mont-ExtraLightItalic.woff2');
+@include font('Mont', normal, 300, '../fonts/Mont-Light.woff2');
+@include font('Mont', italic, 300, '../fonts/Mont-LightItalic.woff2');
+@include font('Mont', normal, 400, '../fonts/Mont-Regular.woff2');
+@include font('Mont', italic, 400, '../fonts/Mont-RegularItalic.woff2');
+@include font('Mont', normal, 600, '../fonts/Mont-SemiBold.woff2');
+@include font('Mont', italic, 600, '../fonts/Mont-SemiBoldItalic.woff2');
+@include font('Mont', normal, 700, '../fonts/Mont-Bold.woff2');
+@include font('Mont', italic, 700, '../fonts/Mont-BoldItalic.woff2');
+@include font('Mont', normal, 800, '../fonts/Mont-Heavy.woff2');
+@include font('Mont', italic, 800, '../fonts/Mont-HeavyItalic.woff2');
+@include font('Mont', normal, 900, '../fonts/Mont-Black.woff2');
+@include font('Mont', italic, 900, '../fonts/Mont-BlackItalic.woff2');
