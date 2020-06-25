@@ -217,8 +217,8 @@
 	&__more {
 		transform: translateX(100%);
 		opacity: 0;
-		padding: 1.8rem 0 1.9rem 4%;
-		margin: 0.1rem 0 0 calc(#{$semiindent} * 2 - 4%);
+		padding: calc(1.9rem - 2px) 0 1.9rem 4%;
+		margin: 2px 0 0 calc(#{$semiindent} * 2 - 4%);
 		position: absolute;
 		top: 0;
 		left: 0;
